@@ -1,5 +1,4 @@
 // ignore_for_file: file_names, prefer_const_constructors, avoid_print, unnecessary_string_interpolations, annotate_overrides, no_logic_in_create_state
-
 import 'dart:convert';
 import 'package:final_project/PostDetail.dart';
 import 'package:final_project/createPost.dart';
@@ -239,7 +238,7 @@ class _PostPageState extends State<PostPage> {
                                         CrossAxisAlignment.center,
                                     children: [
                                       FavoriteButton(
-                                          iconSize: 70.0,
+                                          iconSize: 40.0,
                                           valueChanged: (isFavorite) {
                                             setState(() {
                                               isFavorite = true;

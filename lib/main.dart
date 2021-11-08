@@ -56,7 +56,7 @@ class _SignInPageState extends State<signInPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: Colors.purple,
+        color: Colors.cyan,
         child: Column(
           // ignore: prefer_const_literals_to_create_immutables
           children: [
@@ -102,12 +102,21 @@ class _SignInPageState extends State<signInPage> {
                                           PostPage(channel: channel)))
                             };
                     },
-                    child: const Text(
-                      'Sign-In',
-                      style: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.white,
+                    child: Container(
+                      padding: EdgeInsets.all(10),
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          border: Border.all(
+                            color: Colors.black,
+                            width: 5,
+                          )),
+                      child: const Text(
+                        'Sign-In',
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black,
+                        ),
                       ),
                     ),
                   )
