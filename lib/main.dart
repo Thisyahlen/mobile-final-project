@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
             ),
       },
       debugShowCheckedModeBanner: false,
-      title: 'Final Mobile Project',
+      title: 'Degenerates',
       theme: ThemeData(
         primarySwatch: Colors.cyan,
       ),
