@@ -86,7 +86,7 @@ class _PostPageState extends State<PostPage> {
                     }
                   });
                 },
-                icon: Icon(Icons.favorite)),
+                icon: Icon(Icons.favorite_outline_sharp)),
             IconButton(
               onPressed: () {
                 Navigator.push(
